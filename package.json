@@ -1,0 +1,22 @@
+{
+  "name": "focus-study-well",
+  "version": "1.0.0",
+  "description": "Modern educational platform for Biotechnology and Microbiology",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "setup": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "keywords": [
+    "education",
+    "biotechnology",
+    "microbiology",
+    "learning",
+    "platform"
+  ],
+  "author": "Focus Study Well Team",
+  "license": "MIT"
+}
